@@ -124,8 +124,7 @@ export default function App() {
         ))
         }
         {
-          Object.keys(keyName).map((x) => (
-            (keyName[x].length > 1) ?
+          (validated && Object.keys(keyName).length > 0)?
             <>
             <div style={{display: 'flex', justifyContent: "space-around"}}>
             <div>Duplicated</div><div>
@@ -140,7 +139,6 @@ export default function App() {
             </div>
            </>
               : null
-          ))
         }
         </ul>
        </>
