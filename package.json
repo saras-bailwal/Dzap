@@ -7,7 +7,7 @@
     "cy:open": "cypress open",
     "cy:test": "cy:open & cypress run",
     "start": "react-scripts start",
-    "build": "tsc",
+    "build": "react-scripts build",
     "lint": "tsc --project tsconfig.lint.json",
     "lint:cypress": "tsc --project cypress/tsconfig.json"
   },
